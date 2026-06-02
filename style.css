@@ -1,0 +1,28 @@
+/* Tablets (Telas maiores que 600px) */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: #0f83d6;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1;
+    }
+}
+
+/* Desktops (Telas maiores que 1024px) */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #e9e8ee;
+    }
+   
+    .card {
+        padding: 2.5rem;
+        border: 2px solid #1e493e;
+    }
+    
+}
